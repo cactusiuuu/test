@@ -1,0 +1,25 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "Discord bot with slash commands and MongoDB",
+    "main": "index.js",
+    "scripts": {
+        "start:bot": "node index.js",
+        "start:web": "node web.js",
+        "start": "concurrently \"npm run start:bot\" \"npm run start:web\""
+    },
+    "dependencies": {
+        "@discordjs/builders": "^0.12.0",
+        "body-parser": "^1.20.2",
+        "chalk": "^4.1.2",
+        "discord.js": "^14.6.0",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "mongoose": "^6.13.0",
+        "passport": "^0.7.0",
+        "passport-discord": "^0.1.4"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

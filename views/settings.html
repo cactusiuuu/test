@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2f33;
+            color: #fff;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .user-info img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .servers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .server {
+            background-color: #23272a;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 200px;
+        }
+        .server img {
+            border-radius: 50%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #7289da;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .button.add-bot {
+            background-color: #99aab5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="user-info">
+            <img src="USER_AVATAR_URL" alt="User Avatar" width="50">
+            <h2>USER_NAME</h2>
+        </div>
+        <div class="servers">
+            <!-- Servers will be inserted here -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "token": "MTI2Njg0NzQ4MTc0NDk4MjE2MA.GIEd9m.r9qN8_EiLYhbPyP7ipsYZdtjx-b-iZjBMoqyxU",
+    "mongoURI": "mongodb+srv://cactusiuu:UzpnWXMDfU7fMK3L@librus.29kavgs.mongodb.net/Thunder",
+    "clientId": "1266847481744982160",
+    "clientSecret": "CYfo13pVPkcqDn3xpI0saSd4F0lFAeqQ",
+    "callbackURL": "http://localhost:3000/auth/discord/callback",
+    "sessionSecret": "secret"
+}
